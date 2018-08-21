@@ -14,6 +14,16 @@
   .rightSide .rightIcons {
     margin-left: 1rem;
   }
+
+  .categoryBox {
+    width: 19%;
+    margin: 0 0.5% 0;
+  }
+
+  .productBox {
+    width: 19%;
+    margin: 0 0.5% 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -60,6 +70,28 @@
   .pageTitleHeading {
     font-size: 1.6rem;
   }
+
+  .categoryBox {
+    width: 28%;
+    margin: 2% 2%;
+  }
+
+  .productBox {
+    width: 28%;
+    margin: 2% 2%;
+  }
+
+  .footerContent h3 {
+    font-size: 12px;
+  }
+
+  .footerContent ul li {
+    margin: 6px;
+  }
+
+  .footerContent ul li a {
+    font-size: 10px;
+  }
 }
 
 @media screen and (min-width: 350px) and (max-width: 767px) {
@@ -91,6 +123,33 @@
   .pageTitleHeading {
     font-size: 1.25rem;
   }
+
+  .categoryBox {
+    width: 40%;
+    margin: 2% 5%;
+  }
+
+  .categoryHeading span {
+    line-height: 60px;
+  }
+
+  .productBox {
+    width: 40%;
+    margin: 2% 5%;
+  }
+
+  .footerContent h3 {
+    font-size: 11px;
+  }
+
+  .footerContent ul li {
+    margin: 3px;
+    line-height: 1;
+  }
+
+  .footerContent ul li a {
+    font-size: 6px;
+  }
 }
 
 @media screen and (max-width: 349px) {
@@ -103,5 +162,32 @@
 
   .pageTitleHeading {
     font-size: 1rem;
+  }
+
+  .categoryBox {
+    width: 80%;
+    margin: 5% 5%;
+  }
+
+  .categoryHeading span {
+    display: none;
+  }
+
+  .productBox {
+    width: 80%;
+    margin: 5% 5%;
+  }
+
+  .footerContent h3 {
+    font-size: 11px;
+  }
+
+  .footerContent ul li {
+    margin: 3px;
+    line-height: 1;
+  }
+
+  .footerContent ul li a {
+    font-size: 6px;
   }
 }
