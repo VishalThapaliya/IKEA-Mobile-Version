@@ -30,6 +30,11 @@ body {
   line-height: 1.5rem;
 }
 
+#subheader a {
+  text-decoration: none;
+  color: #93667c;
+}
+
 #subheader span:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -65,18 +70,19 @@ body {
 }
 
 /* Menu */
-nav {
+
+#navigation {
   width: 50%;
   margin-top: 10px;
   padding: 0.5rem;
   float: left;
 }
 
-nav ul li {
+#mainNav {
   display: inline-block;
 }
 
-nav ul li a {
+#navigation #mainNav a {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -313,4 +319,8 @@ footer {
 .footerContent ul li a {
   font-size: 14px;
   text-decoration: none;
+}
+
+.footerContent ul li a:hover {
+  text-decoration: underline;
 }

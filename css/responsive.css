@@ -1,0 +1,107 @@
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  #subheader span a {
+    margin-left: 10px;
+  }
+
+  #subheader a {
+    margin-right: 10px;
+  }
+
+  .rightSide {
+    width: 300px;
+  }
+
+  .rightSide .rightIcons {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #subheader span a {
+    font-size: 15px;
+    margin-left: 12px;
+  }
+  #subheader a {
+    margin-right: 5px;
+  }
+
+  #logo {
+    width: 125px;
+    margin-left: 0.5rem;
+  }
+
+  #navigation {
+    padding: 0.2rem;
+    width: 40%;
+  }
+
+  #navigation #mainNav a {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .rightSide {
+    width: 230px;
+  }
+
+  .rightSide .rightIcons {
+    margin-left: 5px;
+  }
+
+  .rightIcons img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .rightIcons p {
+    font-size: 10px;
+  }
+
+  .pageTitleHeading {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+  #subheader span a {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .rightSide {
+    width: 230px;
+  }
+
+  .rightSide .rightIcons {
+    margin-left: 5px;
+  }
+
+  .rightIcons img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .rightIcons p {
+    display: none;
+  }
+
+  .pageTitleHeading {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 349px) {
+  #subheader span a {
+    display: none;
+  }
+  .rightSide {
+    display: none;
+  }
+
+  .pageTitleHeading {
+    font-size: 1rem;
+  }
+}
