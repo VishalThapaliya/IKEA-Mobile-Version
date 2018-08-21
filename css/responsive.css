@@ -11,10 +11,6 @@
   .header_icon-list-item-text {
     display: block;
   }
-
-  .header_icon-list-item-menu .header_icon-list-item-icon {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -46,14 +42,6 @@
     margin-right: 10px;
   }
 
-  .rightSide {
-    width: 300px;
-  }
-
-  .rightSide .rightIcons {
-    margin-left: 1rem;
-  }
-
   .categoryBox {
     width: 19%;
     margin: 0 0.5% 0;
@@ -66,14 +54,6 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  label {
-    display: block;
-  }
-
-  #toggle:checked + .desktop-menu_item {
-    display: block;
-  }
-
   .desktop-menu_link {
     display: none;
   }
@@ -95,12 +75,8 @@
     display: none;
   }
 
-  #subheader span a {
-    font-size: 15px;
-    margin-left: 12px;
-  }
-  #subheader a {
-    margin-right: 5px;
+  #subheader {
+    display: none;
   }
 
   #logo {
@@ -118,21 +94,8 @@
     margin-left: 10px;
   }
 
-  .rightSide {
-    width: 230px;
-  }
-
-  .rightSide .rightIcons {
-    margin-left: 5px;
-  }
-
-  .rightIcons img {
-    width: 15px;
-    height: 15px;
-  }
-
-  .rightIcons p {
-    font-size: 10px;
+  #menuNav {
+    display: inline-block;
   }
 
   .pageTitleHeading {
@@ -167,11 +130,7 @@
     display: none;
   }
 
-  label {
-    display: block;
-  }
-
-  #subheader span a {
+  #subheader {
     display: none;
   }
 
@@ -179,21 +138,12 @@
     display: none;
   }
 
-  .rightSide {
-    width: 230px;
-  }
-
-  .rightSide .rightIcons {
-    margin-left: 5px;
-  }
-
-  .rightIcons img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .rightIcons p {
+  .header_icon-list-item-text {
     display: none;
+  }
+
+  #menuNav {
+    display: inline-block;
   }
 
   .pageTitleHeading {
@@ -203,6 +153,10 @@
   .categoryBox {
     width: 40%;
     margin: 2% 5%;
+  }
+
+  .categoryTitle p {
+    font-size: 12px;
   }
 
   .categoryHeading span {
@@ -229,11 +183,23 @@
 }
 
 @media screen and (max-width: 349px) {
-  #subheader span a {
+  .login {
     display: none;
   }
-  .rightSide {
+  #subheader {
     display: none;
+  }
+
+  .header_icon-list-item-text {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+
+  #menuNav {
+    display: inline-block;
   }
 
   .pageTitleHeading {
@@ -243,6 +209,10 @@
   .categoryBox {
     width: 80%;
     margin: 5% 5%;
+  }
+
+  .categoryTitle p {
+    font-size: 12px;
   }
 
   .categoryHeading span {

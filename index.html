@@ -81,6 +81,15 @@
                         </li>
                     </ul>
 
+                    <div id="side-menu" class="side-nav">
+                        <a href="#" class="btn-close" onclick="closeSideMenu()">&times;</a>
+                        <a href="#">Products</a>
+                        <a href="#">Rooms</a>
+                        <a href="#">Current</a>
+                        <a href="#">Inspiration</a>
+
+                    </div>
+
                     <ul class="header_icon-list header_icon-count-3">
                         <li class="header_icon-list-item">
                             <a href="#" class="header_icon-list-item-link">
@@ -115,16 +124,19 @@
                             </span>
                         </li>
 
-                        <li class="header_icon-list-item header_icon-list-item-menu">
+                        <li id="menuNav" class="header_icon-list-item header_icon-list-item-menu">
                             <a href="#" class="header_icon-list-item-link">
                                 <div class="header_icon-list-item-icon">
-                                    <label for="toggle">&#9776;</label>
-                                    <input type="checkbox" id="toggle" />
-                                    <!-- <img src="img/nav-menu.svg" alt="menu" title="menu"> -->
+                                    <span class="open-slide">
+                                        <a href="#" onclick="openSlideMenu()">
+                                            <svg width="30" height="30">
+                                                <path d="M0,5 30,5" stroke="#333" strke-width="5" />
+                                                <path d="M0,14 30,14" stroke="#333" strke-width="5" />
+                                                <path d="M0,23 30,23" stroke="#333" strke-width="5" />
+                                            </svg>
+                                        </a>
+                                    </span>
                                 </div>
-                                <!--<span class="header_icon-list-item-text">
-                                Menu
-                                </span>-->
                             </a>
                         </li>
                     </ul>
